@@ -21,4 +21,6 @@ bot.on("message", async (ctx) => {
 });
 
 // Start the bot
-bot.start();
+bot.start().then(() => {
+  console.log("Steller Bot is running...");
+});
