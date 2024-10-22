@@ -25,3 +25,19 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/sushilkumarray3/steller-bot.git
+
+2. Navigate to the project directory:
+
+    ```bash
+        cd steller-bot
+
+3. Install dependencies:
+
+    ```bash
+        npm install
+
+4. Create a .env file and add the following environment variables:
+
+    ```bash
+        BOT_TOKEN=<your-telegram-bot-token>
+
